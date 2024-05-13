@@ -4,6 +4,9 @@ dgemm - double general matrix multiplication
 
 
 RUNTIMES (jobs 458049 458050 and 458051 on fep):
+459020
+459021
+459022
 
 Run=./tema3_blas: N=100: Time=0.001060
 Run=./tema3_blas: N=200: Time=0.004432
