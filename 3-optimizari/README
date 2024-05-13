@@ -3,40 +3,40 @@ daxpy - double alpha X plus Y
 dgemm - double general matrix multiplication
 
 
-RUNTIMES:
+RUNTIMES (jobs 458049 458050 and 458051 on fep):
+
+Run=./tema3_blas: N=100: Time=0.001060
+Run=./tema3_blas: N=200: Time=0.004432
+Run=./tema3_blas: N=400: Time=0.027450
+Run=./tema3_blas: N=500: Time=0.051250
+Run=./tema3_blas: N=600: Time=0.085312
+Run=./tema3_blas: N=800: Time=0.181006
+Run=./tema3_blas: N=1000: Time=0.350641
+Run=./tema3_blas: N=1200: Time=0.585939
+Run=./tema3_blas: N=1400: Time=0.917983
+Run=./tema3_blas: N=1600: Time=1.366215
 
 
-Run=./tema3_blas: N=100: Time=0.001160
-Run=./tema3_blas: N=200: Time=0.005279
-Run=./tema3_blas: N=400: Time=0.031638
-Run=./tema3_blas: N=500: Time=0.063342
-Run=./tema3_blas: N=600: Time=0.105386
-Run=./tema3_blas: N=800: Time=0.222267
-Run=./tema3_blas: N=1000: Time=0.429158
-Run=./tema3_blas: N=1200: Time=0.725301
-Run=./tema3_blas: N=1400: Time=1.132740
-Run=./tema3_blas: N=1600: Time=1.670985
+Run=./tema3_neopt: N=100: Time=0.008871
+Run=./tema3_neopt: N=200: Time=0.071441
+Run=./tema3_neopt: N=400: Time=0.601891
+Run=./tema3_neopt: N=500: Time=1.186582
+Run=./tema3_neopt: N=600: Time=1.956093
+Run=./tema3_neopt: N=800: Time=4.903059
+Run=./tema3_neopt: N=1000: Time=9.114556
+Run=./tema3_neopt: N=1200: Time=17.410021
+Run=./tema3_neopt: N=1400: Time=28.176229
+Run=./tema3_neopt: N=1600: Time=46.074127
 
 
-Run=./tema3_neopt: N=100: Time=0.010665
-Run=./tema3_neopt: N=200: Time=0.086532
-Run=./tema3_neopt: N=400: Time=0.757135
-Run=./tema3_neopt: N=500: Time=1.760305
-Run=./tema3_neopt: N=600: Time=2.891184
-Run=./tema3_neopt: N=800: Time=7.238514
-Run=./tema3_neopt: N=1000: Time=13.631178
-Run=./tema3_neopt: N=1200: Time=23.946684
-Run=./tema3_neopt: N=1400: Time=36.548691
-Run=./tema3_neopt: N=1600: Time=63.331753
-
-
-Run=./tema3_opt_m: N=100: Time=0.004834
-Run=./tema3_opt_m: N=200: Time=0.037045
-Run=./tema3_opt_m: N=400: Time=0.286191
-Run=./tema3_opt_m: N=500: Time=0.557478
-Run=./tema3_opt_m: N=600: Time=0.968579
-Run=./tema3_opt_m: N=800: Time=2.304481
-Run=./tema3_opt_m: N=1000: Time=4.571524
-Run=./tema3_opt_m: N=1200: Time=7.954476
-Run=./tema3_opt_m: N=1400: Time=12.620681
-Run=./tema3_opt_m: N=1600: Time=18.823446
+Run=./tema3_opt_m: N=100: Time=0.003956
+Run=./tema3_opt_m: N=200: Time=0.033602
+Run=./tema3_opt_m: N=400: Time=0.237498
+Run=./tema3_opt_m: N=500: Time=0.467670
+Run=./tema3_opt_m: N=600: Time=0.796648
+Run=./tema3_opt_m: N=800: Time=1.855088
+Run=./tema3_opt_m: N=1000: Time=3.617816
+Run=./tema3_opt_m: N=1200: Time=6.247246
+Run=./tema3_opt_m: N=1400: Time=9.986841
+Run=./tema3_opt_m: N=1600: Time=14.979669
+Run=./tema3_opt_m: Bonus=2p
