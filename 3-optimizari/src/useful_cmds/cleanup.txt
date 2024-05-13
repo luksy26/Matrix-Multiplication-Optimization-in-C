@@ -1,0 +1,5 @@
+make clean
+rm -rf out*
+rm -rf slurm*
+rm -rf cachegrind.out*
+rm runtime_outputs/*

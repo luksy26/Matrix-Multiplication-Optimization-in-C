@@ -1,0 +1,3 @@
+sbatch -p haswell sbatch_scripts/neopt_memory.sh
+sbatch -p haswell sbatch_scripts/blas_memory.sh
+sbatch -p haswell sbatch_scripts/opt_m_memory.sh

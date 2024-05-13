@@ -1,0 +1,3 @@
+./compare out1 ../references/out1 0.001
+./compare out2 ../references/out2 0.001
+./compare out3 ../references/out3 0.001

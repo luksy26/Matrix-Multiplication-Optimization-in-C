@@ -1,0 +1,15 @@
+==2394994== Memcheck, a memory error detector
+==2394994== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==2394994== Using Valgrind-3.21.0 and LibVEX; rerun with -h for copyright info
+==2394994== Command: ./tema3_neopt ../input/input_valgrind
+==2394994== Parent PID: 2394993
+==2394994== 
+==2394994== 
+==2394994== HEAP SUMMARY:
+==2394994==     in use at exit: 0 bytes in 0 blocks
+==2394994==   total heap usage: 9 allocs, 9 frees, 6,416,980 bytes allocated
+==2394994== 
+==2394994== All heap blocks were freed -- no leaks are possible
+==2394994== 
+==2394994== For lists of detected and suppressed errors, rerun with: -s
+==2394994== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

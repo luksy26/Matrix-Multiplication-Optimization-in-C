@@ -1,0 +1,42 @@
+dtrmm - double triangular matrix multiplication
+daxpy - double alpha X plus Y
+dgemm - double general matrix multiplication
+
+
+RUNTIMES:
+
+
+Run=./tema3_blas: N=100: Time=0.001160
+Run=./tema3_blas: N=200: Time=0.005279
+Run=./tema3_blas: N=400: Time=0.031638
+Run=./tema3_blas: N=500: Time=0.063342
+Run=./tema3_blas: N=600: Time=0.105386
+Run=./tema3_blas: N=800: Time=0.222267
+Run=./tema3_blas: N=1000: Time=0.429158
+Run=./tema3_blas: N=1200: Time=0.725301
+Run=./tema3_blas: N=1400: Time=1.132740
+Run=./tema3_blas: N=1600: Time=1.670985
+
+
+Run=./tema3_neopt: N=100: Time=0.010665
+Run=./tema3_neopt: N=200: Time=0.086532
+Run=./tema3_neopt: N=400: Time=0.757135
+Run=./tema3_neopt: N=500: Time=1.760305
+Run=./tema3_neopt: N=600: Time=2.891184
+Run=./tema3_neopt: N=800: Time=7.238514
+Run=./tema3_neopt: N=1000: Time=13.631178
+Run=./tema3_neopt: N=1200: Time=23.946684
+Run=./tema3_neopt: N=1400: Time=36.548691
+Run=./tema3_neopt: N=1600: Time=63.331753
+
+
+Run=./tema3_opt_m: N=100: Time=0.004834
+Run=./tema3_opt_m: N=200: Time=0.037045
+Run=./tema3_opt_m: N=400: Time=0.286191
+Run=./tema3_opt_m: N=500: Time=0.557478
+Run=./tema3_opt_m: N=600: Time=0.968579
+Run=./tema3_opt_m: N=800: Time=2.304481
+Run=./tema3_opt_m: N=1000: Time=4.571524
+Run=./tema3_opt_m: N=1200: Time=7.954476
+Run=./tema3_opt_m: N=1400: Time=12.620681
+Run=./tema3_opt_m: N=1600: Time=18.823446
