@@ -95,3 +95,4 @@ Resurse utilizate
 * https://web.archive.org/web/20221204071232/https://www.netlib.org/blas/ : site functional pentru documentatie BLAS.
 * https://matrixcalc.org/ro/ : pentru testare corectitudine implementari.
 * https://github.com/vtjnash/atlas-3.10.0/tree/master/interfaces/blas/C/src : pentru documentatie implementare specifica in C a bibliotecii.
+* https://www.baeldung.com/linux/solve-shared-object-error : testare pe local BLAS
