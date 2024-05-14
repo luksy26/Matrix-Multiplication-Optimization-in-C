@@ -73,7 +73,7 @@ double *my_solver(int N, double *A, double *B)
 	for (register int i = 0; i < N; ++i)
 	{
 		register double *TMP_orig = TMP + i * N; // &TMP[i][0]
-		register double *C_p = C + i * N;		// &C[i][0]
+		register double *C_p = C + i * N;		 // &C[i][0]
 		for (register int j = 0; j < N; ++j)
 		{
 			register double sum = 0;
